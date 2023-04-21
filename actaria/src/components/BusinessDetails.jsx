@@ -1,8 +1,8 @@
 import React from "react";
-import TextField from "@material-ui/core/TextField";
-import withStyles from "@material-ui/core/styles/withStyles";
-import createStyles from "@material-ui/core/styles/createStyles";
-import Grid from "@material-ui/core/Grid";
+import TextField from '@material-ui/core/TextField';
+import { withStyles } from '@material-ui/core/styles';
+import { createStyles } from '@material-ui/styles';
+import Grid from '@material-ui/core/Grid';
 
 const styles = theme => createStyles({
     wrapper: {

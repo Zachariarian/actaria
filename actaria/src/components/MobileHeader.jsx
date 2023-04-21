@@ -6,7 +6,7 @@ import {Hidden} from "@material-ui/core";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import MonitizationOn from "@material-ui/icons/MonetizationOn";
+import MonetizationOnIcon from '@material-ui/icons/Monetization';
 import Icon from "@material-ui/core/Icon";
 import IconButton from "@material-ui/core/IconButton";
 import Drawer from "@material-ui/core/Drawer";
@@ -14,6 +14,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
+import { Link } from 'react-router-dom';
 
 const styles = theme => createStyles({
     icon: {

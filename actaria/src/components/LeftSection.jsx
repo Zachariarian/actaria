@@ -3,7 +3,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import createStyles from "@material-ui/core/styles/createStyles";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-import MonitizationOn from "@material-ui/icons/MonetizationOn";
+import MonetizationOnIcon from '@material-ui/icons/Monetization';
 import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import { withRouter } from 'react-router-dom';
